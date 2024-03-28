@@ -4,3 +4,9 @@
 {"level":"http","message":"Hello http","ms":"+1ms","timestamp":"2024-03-28T08:03:59.123Z"}
 {"level":"verbose","message":"Hello verbose","ms":"+0ms","timestamp":"2024-03-28T08:03:59.123Z"}
 {"level":"debug","message":"Hello debug","ms":"+1ms","timestamp":"2024-03-28T08:03:59.124Z"}
+{"level":"error","message":"Hello error","ms":"+0ms","timestamp":"2024-03-28T08:28:22.256Z"}
+{"level":"warn","message":"Hello warn","ms":"+3ms","timestamp":"2024-03-28T08:28:22.260Z"}
+{"level":"info","message":"Hello logging","ms":"+1ms","timestamp":"2024-03-28T08:28:22.261Z"}
+{"level":"http","message":"Hello http","ms":"+1ms","timestamp":"2024-03-28T08:28:22.261Z"}
+{"level":"verbose","message":"Hello verbose","ms":"+0ms","timestamp":"2024-03-28T08:28:22.262Z"}
+{"level":"debug","message":"Hello debug","ms":"+1ms","timestamp":"2024-03-28T08:28:22.263Z"}
