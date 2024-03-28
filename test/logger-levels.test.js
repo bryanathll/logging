@@ -2,6 +2,7 @@ import winston from "winston"
 
 test("test logging with transport", ()=>{
     const logger = winston.createLogger({
+        level: "debug",
         transports: [
             new winston.transports.Console({})
         ]
