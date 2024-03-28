@@ -1,9 +1,9 @@
 import winston from "winston"
 
-test("test logging with transport", ()=>{
+test("test logging with format", ()=>{
     const logger = winston.createLogger({
         level: "debug",
-        format: winston.format.simple(),
+        format: winston.format.logstash(),
         transports: [
             new winston.transports.Console({})
         ]

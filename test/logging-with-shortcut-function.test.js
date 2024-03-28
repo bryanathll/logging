@@ -1,6 +1,6 @@
 import winston from "winston"
 
-test("test logging with transport", ()=>{
+test("test logging with shortcut function", ()=>{
     const logger = winston.createLogger({
         level: "debug",
         transports: [
