@@ -1,6 +1,6 @@
 import winston from "winston"
 
-test("test logging with shortcut function", ()=>{
+test("test logging with printf format", ()=>{
     const logger = winston.createLogger({
         level: "debug",
         format: winston.format.printf(log =>{

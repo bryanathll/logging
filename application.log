@@ -1,0 +1,6 @@
+{"level":"error","message":"Hello error","ms":"+0ms","timestamp":"2024-03-28T08:03:59.118Z"}
+{"level":"warn","message":"Hello warn","ms":"+3ms","timestamp":"2024-03-28T08:03:59.121Z"}
+{"level":"info","message":"Hello logging","ms":"+1ms","timestamp":"2024-03-28T08:03:59.122Z"}
+{"level":"http","message":"Hello http","ms":"+1ms","timestamp":"2024-03-28T08:03:59.123Z"}
+{"level":"verbose","message":"Hello verbose","ms":"+0ms","timestamp":"2024-03-28T08:03:59.123Z"}
+{"level":"debug","message":"Hello debug","ms":"+1ms","timestamp":"2024-03-28T08:03:59.124Z"}

@@ -1,15 +1,18 @@
 import winston from "winston"
 
-test("test logging with combine format", ()=>{
+test("test logging with file transport", ()=>{
     const logger = winston.createLogger({
         level: "debug",
         format: winston.format.combine(
             winston.format.timestamp(),
             winston.format.ms(),
-            winston.format.simple(),
+            winston.format.json(),
         ),
         transports: [
-            new winston.transports.Console({})
+            new winston.transports.Console({}),
+            new winston.transports.File({
+                filename: "application.log"
+            })
         ]
     });
 
