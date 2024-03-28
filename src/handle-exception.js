@@ -2,6 +2,7 @@ import winston from "winston"
 
     const logger = winston.createLogger({
         level: "debug",
+        // handleExceptions: true,
         format: winston.format.combine(
             winston.format.timestamp(),
             winston.format.ms(),

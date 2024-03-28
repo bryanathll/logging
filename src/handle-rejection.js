@@ -1,0 +1,22 @@
+import winston from "winston"
+
+    const logger = winston.createLogger({
+        level: "debug",
+        // handleExceptions:true,
+        // handleRejections: true,
+        format: winston.format.combine(
+            winston.format.timestamp(),
+            winston.format.ms(),
+            winston.format.json(),
+        ),
+        transports: [
+            new winston.transports.Console({}),
+            new winston.transports.File({
+                handleExceptions:true,
+                handleRejections: true,
+                filename: "src/rejection.log"
+            })
+        ] 
+    });
+
+    callAsync();
