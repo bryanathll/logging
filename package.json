@@ -1,0 +1,27 @@
+{
+  "name": "logging",
+  "version": "1.0.0",
+  "description": "learn logging",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Brian Nathanel",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "3.13.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.3",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  }
+  
+}
