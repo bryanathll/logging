@@ -1,9 +1,9 @@
 {
-    "date": "Thu Mar 28 2024 16:32:01 GMT+0700 (Western Indonesia Time)",
+    "date": "Thu Mar 28 2024 16:36:54 GMT+0700 (Western Indonesia Time)",
     "error": {},
     "exception": true,
     "level": "error",
-    "message": "uncaughtException: hello is not defined\nReferenceError: hello is not defined\n    at file:///D:/NodeJs/logging/test/handle-exception.test.js:19:5\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)\n    at async handleMainPromise (node:internal/modules/run_main:120:12)",
+    "message": "uncaughtException: hello is not defined\nReferenceError: hello is not defined\n    at file:///D:/NodeJs/logging/src/handle-exception.test.js:19:5\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)\n    at async handleMainPromise (node:internal/modules/run_main:120:12)",
     "ms": "+0ms",
     "os": {
         "loadavg": [
@@ -11,12 +11,12 @@
             0,
             0
         ],
-        "uptime": 163182.109
+        "uptime": 163475.187
     },
     "process": {
         "argv": [
             "C:\\Program Files\\nodejs\\node.exe",
-            "D:\\NodeJs\\logging\\test\\handle-exception.test.js"
+            "D:\\NodeJs\\logging\\src\\handle-exception.test.js"
         ],
         "cwd": "D:\\NodeJs\\logging",
         "execPath": "C:\\Program Files\\nodejs\\node.exe",
@@ -25,19 +25,19 @@
             "arrayBuffers": 10515,
             "external": 1884240,
             "heapTotal": 10072064,
-            "heapUsed": 7070440,
-            "rss": 34463744
+            "heapUsed": 7032344,
+            "rss": 34443264
         },
-        "pid": 22708,
+        "pid": 24056,
         "uid": null,
         "version": "v21.6.0"
     },
-    "stack": "ReferenceError: hello is not defined\n    at file:///D:/NodeJs/logging/test/handle-exception.test.js:19:5\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)\n    at async handleMainPromise (node:internal/modules/run_main:120:12)",
-    "timestamp": "2024-03-28T09:32:01.073Z",
+    "stack": "ReferenceError: hello is not defined\n    at file:///D:/NodeJs/logging/src/handle-exception.test.js:19:5\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:323:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)\n    at async handleMainPromise (node:internal/modules/run_main:120:12)",
+    "timestamp": "2024-03-28T09:36:54.153Z",
     "trace": [
         {
             "column": 5,
-            "file": "file:///D:/NodeJs/logging/test/handle-exception.test.js",
+            "file": "file:///D:/NodeJs/logging/src/handle-exception.test.js",
             "function": null,
             "line": 19,
             "method": null,

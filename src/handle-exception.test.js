@@ -11,7 +11,7 @@ import winston from "winston"
             new winston.transports.Console({}),
             new winston.transports.File({
                 handleExceptions: true,
-                filename: "exception.log"
+                filename: "src/exception.log"
             })
         ]
     });
