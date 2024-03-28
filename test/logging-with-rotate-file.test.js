@@ -14,17 +14,13 @@ test("test logging with DailyRotateFile", ()=>{
             new DailyRotateFile({
                 filename: "app-%DATE%.log",
                 zippedArchive: true,
-                maxSize: '1m',
+                maxSize: '100m',
                 maxFiles: '14d'
             })
         ]
     });
 
-    logger.error("Hello error")
-    logger.warn("Hello warn")
-    logger.info("Hello logging")
-    logger.http("Hello http")
-    logger.verbose("Hello verbose")
-    logger.debug("Hello debug")
-    logger.silly("Hello silly")
+    for (let i = 0 ; i<100000; i++){
+        logger.info(`Hello world ${i}`);
+    }
 })
